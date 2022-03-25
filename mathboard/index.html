@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>biz form</title>
+
+    <script src="./js/p5.js"></script>
+    <script src="./js/addons/p5.sound.min.js"></script>
+    <script src="./js/sockjs.min.js"></script>
+    <script src="./js/stomp.js"></script>
+    <script src="bizform/bizform.nocache.js"></script>
+
+    <style>
+        :focus {
+            outline: none;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+<noscript>
+    <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+    </div>
+</noscript>
+<div id="controls">
+    <div id="tools">
+        <button onclick="cnvs1.clearCanvas()" data-action="clear" class="clear">&times;</button>
+    </div>
+    <div id="modes">
+        <button onclick="changeMode('draw', 0)" data-mode="draw" class="mode active">&#9998;</button>
+        <button onclick="changeMode('line', 1)" data-mode="line" class="mode">\</button>
+        <button onclick="changeMode('square', 2)" data-mode="square" class="mode">&#9633;</button>
+        <button onclick="changeMode('circle', 3)" data-mode="circle" class="mode">&#9675;</button>
+    </div>
+    <div id="colors">
+        <button class="color active" style="background-color: black;" data-color="black"
+                onclick="changeColor(this)">&nbsp;
+        </button>
+        <button class="color " style="background-color: red;" data-color="red"
+                onclick="changeColor(this)">&nbsp;
+        </button>
+        <button class="color" style="background-color: green;" data-color="green"
+                onclick="changeColor(this)">&nbsp;
+        </button>
+        <button class="color" style="background-color: blue;" data-color="blue"
+                onclick="changeColor(this)">&nbsp;
+        </button>
+        <button class="color" style="background-color: rgb(226, 226, 226);" data-color="white"
+                onclick="changeColor(this)">&nbsp;
+        </button>
+    </div>
+    <div id="author">www.starter123.cn</div>
+</div>
+</body>
+</html>

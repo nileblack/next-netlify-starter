@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.starter123.cn</id>
+    <title>Strater123</title>
+    <updated>2022-03-24T02:22:34.703Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://www.starter123.cn"/>
+    <link rel="self" href="https://www.starter123.cn/atom.xml"/>
+    <logo>https://www.starter123.cn/images/avatar.png</logo>
+    <icon>https://www.starter123.cn/favicon.ico</icon>
+    <rights>All rights reserved 2022, Strater123</rights>
+    <entry>
+        <title type="html"><![CDATA[MathBoard]]></title>
+        <id>https://www.starter123.cn/post/mathboard/</id>
+        <link href="https://www.starter123.cn/post/mathboard/">
+        </link>
+        <updated>2022-03-19T09:40:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>一个专注于数学的协作白板。<br>
+<a href="https://www.starter123.cn/mathboard">打开</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一个专注于数学的协作白板。<br>
+<a href="https://www.starter123.cn/mathboard">打开</a></p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[可靠性数据管理]]></title>
+        <id>https://www.starter123.cn/post/ke-kao-xing-shu-ju-guan-li/</id>
+        <link href="https://www.starter123.cn/post/ke-kao-xing-shu-ju-guan-li/">
+        </link>
+        <updated>2022-03-10T15:40:32.000Z</updated>
+        <summary type="html"><![CDATA[<p>可靠性数据管理</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>可靠性数据管理</p>
+<!-- more -->
+]]></content>
+    </entry>
+</feed>
